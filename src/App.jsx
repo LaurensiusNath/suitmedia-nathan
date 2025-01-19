@@ -20,13 +20,13 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Navigate to="/ideas" />} />
-          <Route path="/work" element={<Work />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/ideas" element={<Ideas />} />
-          <Route path="/careers" element={<Careers />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/suitmedia-nathan" element={<Navigate to="/suitmedia-nathan/ideas" />} />
+          <Route path="/suitmedia-nathan/work" element={<Work />} />
+          <Route path="/suitmedia-nathan/about" element={<About />} />
+          <Route path="/suitmedia-nathan/services" element={<Services />} />
+          <Route path="/suitmedia-nathan/ideas" element={<Ideas />} />
+          <Route path="/suitmedia-nathan/careers" element={<Careers />} />
+          <Route path="/suitmedia-nathan/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
