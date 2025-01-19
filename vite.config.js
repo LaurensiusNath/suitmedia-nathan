@@ -8,7 +8,7 @@ const API_BASE_URL = process.env.NODE_ENV === "production"
 
 export default defineConfig({
   plugins: [react()],
-  base: "/suitmedia-test/",
+  base: "/suitmedia-nathan",
   define: {
     "process.env.API_BASE_URL": JSON.stringify(API_BASE_URL),
   },

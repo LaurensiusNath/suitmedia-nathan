@@ -10,12 +10,12 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const menuItems = [
-    { name: "Work", path: "/work" },
-    { name: "About", path: "/about" },
-    { name: "Services", path: "/services" },
-    { name: "Ideas", path: "/ideas" },
-    { name: "Careers", path: "/careers" },
-    { name: "Contact", path: "/contact" },
+    { name: "Work", path: "/suitmedia-nathan/work" },
+    { name: "About", path: "/suitmedia-nathan/about" },
+    { name: "Services", path: "/suitmedia-nathan/services" },
+    { name: "Ideas", path: "/suitmedia-nathan/ideas" },
+    { name: "Careers", path: "/suitmedia-nathan/careers" },
+    { name: "Contact", path: "/suitmedia-nathan/contact" },
   ];
 
   useEffect(() => {
